@@ -1,0 +1,280 @@
+{
+	"mealList": [{
+		"calories": 586,
+		"type": "breakfast",
+		"proteinInGrams": 59,
+		"fatInGrams": 19,
+		"carbsInGrams": 53,
+		"itemList": [{
+			"name": "Protein Bar",
+			"qty": "1",
+			"groceryList": [{
+				"name": "chocolate chips",
+				"qty": 1,
+				"qtyType": "cup"
+			},
+			{
+				"name": "beans",
+				"qty": 1,
+				"qtyType": "bag"
+			}]
+		},
+		{
+			"name": "Chicken And Spinach",
+			"qty": "1",
+			"groceryList": [{
+				"name": "spinach",
+				"qty": 2,
+				"qtyType": "cups"
+			},
+			{
+				"name": "chicken",
+				"qty": 4,
+				"qtyType": "oz"
+			}]
+		}]
+	},
+	{
+		"calories": 548,
+		"type": "Dinner",
+		"proteinInGrams": 68,
+		"fatInGrams": 18,
+		"carbsInGrams": 39,
+		"itemList": [{
+			"name": "Chicken And Spinach",
+			"qty": "1",
+			"groceryList": [{
+				"name": "spinach",
+				"qty": 2,
+				"qtyType": "cups"
+			},
+			{
+				"name": "chicken",
+				"qty": 4,
+				"qtyType": "oz"
+			}]
+		},
+		{
+			"name": "Protein Bar",
+			"qty": "1",
+			"groceryList": [{
+				"name": "chocolate chips",
+				"qty": 1,
+				"qtyType": "cup"
+			},
+			{
+				"name": "beans",
+				"qty": 1,
+				"qtyType": "bag"
+			}]
+		}]
+	},
+	{
+		"calories": 586,
+		"type": "Lunch",
+		"proteinInGrams": 59,
+		"fatInGrams": 19,
+		"carbsInGrams": 53,
+		"itemList": [{
+			"name": "Protein Bar",
+			"qty": "1",
+			"groceryList": [{
+				"name": "chocolate chips",
+				"qty": 1,
+				"qtyType": "cup"
+			},
+			{
+				"name": "beans",
+				"qty": 1,
+				"qtyType": "bag"
+			}]
+		},
+		{
+			"name": "Chicken And Spinach",
+			"qty": "1",
+			"groceryList": [{
+				"name": "spinach",
+				"qty": 2,
+				"qtyType": "cups"
+			},
+			{
+				"name": "chicken",
+				"qty": 4,
+				"qtyType": "oz"
+			}]
+		}]
+	},
+	{
+		"calories": 586,
+		"type": "Dinner",
+		"proteinInGrams": 59,
+		"fatInGrams": 19,
+		"carbsInGrams": 53,
+		"itemList": [{
+			"name": "Protein Bar",
+			"qty": "1",
+			"groceryList": [{
+				"name": "chocolate chips",
+				"qty": 1,
+				"qtyType": "cup"
+			},
+			{
+				"name": "beans",
+				"qty": 1,
+				"qtyType": "bag"
+			}]
+		},
+		{
+			"name": "Chicken And Spinach",
+			"qty": "1",
+			"groceryList": [{
+				"name": "spinach",
+				"qty": 2,
+				"qtyType": "cups"
+			},
+			{
+				"name": "chicken",
+				"qty": 4,
+				"qtyType": "oz"
+			}]
+		}]
+	},
+	{
+		"calories": 786,
+		"type": "breakfast",
+		"proteinInGrams": 59,
+		"fatInGrams": 19,
+		"carbsInGrams": 53,
+		"itemList": [{
+			"name": "Protein Bar",
+			"qty": "2",
+			"groceryList": [{
+				"name": "chocolate chips",
+				"qty": 2,
+				"qtyType": "cup"
+			},
+			{
+				"name": "beans",
+				"qty": 2,
+				"qtyType": "bag"
+			}]
+		},
+		{
+			"name": "Chicken And Spinach",
+			"qty": "1",
+			"groceryList": [{
+				"name": "spinach",
+				"qty": 2,
+				"qtyType": "cups"
+			},
+			{
+				"name": "chicken",
+				"qty": 4,
+				"qtyType": "oz"
+			}]
+		}]
+	},
+	{
+		"calories": 586,
+		"type": "Dinner",
+		"proteinInGrams": 59,
+		"fatInGrams": 19,
+		"carbsInGrams": 53,
+		"itemList": [{
+			"name": "Protein Bar",
+			"qty": "1",
+			"groceryList": [{
+				"name": "chocolate chips",
+				"qty": 1,
+				"qtyType": "cup"
+			},
+			{
+				"name": "beans",
+				"qty": 1,
+				"qtyType": "bag"
+			}]
+		},
+		{
+			"name": "Chicken And Spinach",
+			"qty": "1",
+			"groceryList": [{
+				"name": "spinach",
+				"qty": 2,
+				"qtyType": "cups"
+			},
+			{
+				"name": "chicken",
+				"qty": 4,
+				"qtyType": "oz"
+			}]
+		}]
+	},
+	{
+		"calories": 586,
+		"type": "Lunch",
+		"proteinInGrams": 59,
+		"fatInGrams": 19,
+		"carbsInGrams": 53,
+		"itemList": [{
+			"name": "Protein Bar",
+			"qty": "1",
+			"groceryList": [{
+				"name": "chocolate chips",
+				"qty": 1,
+				"qtyType": "cup"
+			},
+			{
+				"name": "beans",
+				"qty": 1,
+				"qtyType": "bag"
+			}]
+		},
+		{
+			"name": "Chicken And Spinach",
+			"qty": "1",
+			"groceryList": [{
+				"name": "spinach",
+				"qty": 2,
+				"qtyType": "cups"
+			},
+			{
+				"name": "chicken",
+				"qty": 4,
+				"qtyType": "oz"
+			}]
+		}]
+	},
+	{
+		"calories": 386,
+		"type": "snack",
+		"proteinInGrams": 9,
+		"fatInGrams": 9,
+		"carbsInGrams": 53,
+		"itemList": [{
+			"name": "Beans",
+			"qty": "1",
+			"groceryList": [
+			{
+				"name": "beans",
+				"qty": 1,
+				"qtyType": "bag"
+			}]
+		}]
+	},
+	{
+		"calories": 256,
+		"type": "snack",
+		"proteinInGrams": 15,
+		"fatInGrams": 9,
+		"carbsInGrams": 15,
+		"itemList": [{
+			"name": "Luna Bar",
+			"qty": "1",
+			"groceryList": [{
+				"name": "luna Bar",
+				"qty": 1,
+				"qtyType": "bar"
+			}]
+		}]
+	}]
+}

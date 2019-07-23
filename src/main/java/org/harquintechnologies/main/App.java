@@ -30,6 +30,8 @@ public class App
 {
 	private static final Logger log = LoggerFactory.getLogger(App.class);
 	
+	private static boolean makeGroceryList = false;
+	
     public static void main( String[] args )
     {
     	if(args.length != 1)
@@ -137,41 +139,43 @@ public class App
     	email.append("GROCERY LIST: " + System.lineSeparator());
     	//build groceryList
     	Map<String, Grocery> groceryMap = new HashMap<>();
-    	
-    	for(MealDay mealDay : weeklyMealPlan)
+    	if(makeGroceryList)
     	{
-    		Meal breakfast = mealDay.getBreakfast();
-    		List<Item> dayItemList = new ArrayList<>();
-    		dayItemList.addAll(breakfast.getItemList());
-    		
-    		dayItemList.addAll(mealDay.getLunch().getItemList());
-    		dayItemList.addAll(mealDay.getDinner().getItemList());
-    		dayItemList.addAll(mealDay.getAfternoonSnack().getItemList());
-    		dayItemList.addAll(mealDay.getMorningSnack().getItemList());
-    		
-    		for(Item item : dayItemList)
-    		{
-    			List<Grocery> groceryList = item.getGroceryList();
-    			
-    			for(Grocery grocery : groceryList)
-    			{
-    				if(!groceryMap.containsKey(grocery.getName()))
-    				{
-    					groceryMap.put(grocery.getName(), grocery);
-    				}
-    				else
-    				{
-    					Grocery retrievedGrocery = groceryMap.get(grocery.getName());
-    					retrievedGrocery.setQty(retrievedGrocery.getQty() + grocery.getQty());
-    				}
-    			}
-    		}
-    	}
-    	
-    	for(String groceryName : groceryMap.keySet())
-    	{
-    		Grocery grocery = groceryMap.get(groceryName);
-    		email.append(grocery.getQty() + " " + grocery.getQtyType() + " " + groceryName + System.lineSeparator());
+	    	for(MealDay mealDay : weeklyMealPlan)
+	    	{
+	    		Meal breakfast = mealDay.getBreakfast();
+	    		List<Item> dayItemList = new ArrayList<>();
+	    		dayItemList.addAll(breakfast.getItemList());
+	    		
+	    		dayItemList.addAll(mealDay.getLunch().getItemList());
+	    		dayItemList.addAll(mealDay.getDinner().getItemList());
+	    		dayItemList.addAll(mealDay.getAfternoonSnack().getItemList());
+	    		dayItemList.addAll(mealDay.getMorningSnack().getItemList());
+	    		
+	    		for(Item item : dayItemList)
+	    		{
+	    			List<Grocery> groceryList = item.getGroceryList();
+	    			
+	    			for(Grocery grocery : groceryList)
+	    			{
+	    				if(!groceryMap.containsKey(grocery.getName()))
+	    				{
+	    					groceryMap.put(grocery.getName(), grocery);
+	    				}
+	    				else
+	    				{
+	    					Grocery retrievedGrocery = groceryMap.get(grocery.getName());
+	    					retrievedGrocery.setQty(retrievedGrocery.getQty() + grocery.getQty());
+	    				}
+	    			}
+	    		}
+	    	}
+	    	
+	    	for(String groceryName : groceryMap.keySet())
+	    	{
+	    		Grocery grocery = groceryMap.get(groceryName);
+	    		email.append(grocery.getQty() + " " + grocery.getQtyType() + " " + groceryName + System.lineSeparator());
+	    	}
     	}
     	
     	return email.toString();
@@ -189,7 +193,7 @@ public class App
     	
     	for(Item item : itemList)
     	{
-    		printedMeal.append(item.getQty() + " " + item.getName() + System.lineSeparator());
+    		printedMeal.append(item.getQty() + " " + item.getQtyType() + " " + item.getName() + System.lineSeparator());
     	}
     	
     	return printedMeal.toString();

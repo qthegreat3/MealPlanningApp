@@ -1,280 +1,891 @@
 {
 	"mealList": [{
-		"calories": 586,
-		"type": "breakfast",
-		"proteinInGrams": 59,
-		"fatInGrams": 19,
-		"carbsInGrams": 53,
-		"itemList": [{
-			"name": "Protein Bar",
-			"qty": "1",
-			"groceryList": [{
-				"name": "chocolate chips",
-				"qty": 1,
-				"qtyType": "cup"
-			},
-			{
-				"name": "beans",
-				"qty": 1,
-				"qtyType": "bag"
-			}]
+			"calories": 140,
+			"type": "snack",
+			"proteinInGrams": 11,
+			"fatInGrams": 2,
+			"carbsInGrams": 22,
+			"itemList": [{
+					"name": "Grapefruit",
+					"qty": "1",
+					"groceryList": [{
+						"name": "Grapefruit",
+						"qty": 1,
+						"qtyType": "fruit"
+					}]
+				},
+				{
+					"name": "Beef Jerky",
+					"qty": "1",
+					"groceryList": [{
+						"name": "Beef Jerky Sweet & Spicy",
+						"qty": 1,
+						"qtyType": "oz"
+					}]
+				}
+			]
 		},
 		{
-			"name": "Chicken And Spinach",
-			"qty": "1",
-			"groceryList": [{
-				"name": "spinach",
-				"qty": 2,
-				"qtyType": "cups"
-			},
-			{
-				"name": "chicken",
-				"qty": 4,
-				"qtyType": "oz"
-			}]
-		}]
-	},
-	{
-		"calories": 548,
-		"type": "Dinner",
-		"proteinInGrams": 68,
-		"fatInGrams": 18,
-		"carbsInGrams": 39,
-		"itemList": [{
-			"name": "Chicken And Spinach",
-			"qty": "1",
-			"groceryList": [{
-				"name": "spinach",
-				"qty": 2,
-				"qtyType": "cups"
-			},
-			{
-				"name": "chicken",
-				"qty": 4,
-				"qtyType": "oz"
-			}]
+			"calories": 120,
+			"type": "Snack",
+			"proteinInGrams": 10,
+			"fatInGrams": 2,
+			"carbsInGrams": 18,
+			"itemList": [{
+					"name": "Grapefruit",
+					"qty": "1",
+					"groceryList": [{
+						"name": "Grapefruit",
+						"qty": 1,
+						"qtyType": "fruit"
+					}]
+				},
+				{
+					"name": "Honey Ham 2oz",
+					"qty": "1",
+					"groceryList": [{
+						"name": "Honey Ham",
+						"qty": 2,
+						"qtyType": "oz"
+					}]
+				}
+			]
 		},
 		{
-			"name": "Protein Bar",
-			"qty": "1",
-			"groceryList": [{
-				"name": "chocolate chips",
-				"qty": 1,
-				"qtyType": "cup"
-			},
-			{
-				"name": "beans",
-				"qty": 1,
-				"qtyType": "bag"
-			}]
-		}]
-	},
-	{
-		"calories": 586,
-		"type": "Lunch",
-		"proteinInGrams": 59,
-		"fatInGrams": 19,
-		"carbsInGrams": 53,
-		"itemList": [{
-			"name": "Protein Bar",
-			"qty": "1",
-			"groceryList": [{
-				"name": "chocolate chips",
-				"qty": 1,
-				"qtyType": "cup"
-			},
-			{
-				"name": "beans",
-				"qty": 1,
-				"qtyType": "bag"
-			}]
+			"calories": 533,
+			"type": "Dinner",
+			"proteinInGrams": 62,
+			"fatInGrams": 23,
+			"carbsInGrams": 25,
+			"itemList": [{
+					"name": "Protein Shake",
+					"qty": "1",
+					"groceryList": [{
+							"name": "Milk",
+							"qty": 5.36,
+							"qtyType": "oz"
+						},
+						{
+							"name": "Almond milk",
+							"qty": 0.33,
+							"qtyType": "cup"
+						},
+						{
+							"name": "GNC Total Lean Vegan Shake",
+							"qty": 1,
+							"qtyType": "packet"
+						}
+					]
+				},
+				{
+					"name": "Chicken",
+					"qty": "4",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "chicken",
+						"qty": 4,
+						"qtyType": "oz"
+					}]
+				},
+				{
+					"name": "Bacon",
+					"qty": "1",
+					"qtyType": "slice",
+					"groceryList": [{
+						"name": "Bacon",
+						"qty": 1,
+						"qtyType": "slice"
+					}]
+				},
+				{
+					"name": "Cheese Stick",
+					"qty": "1",
+					"qtyType": "stick",
+					"groceryList": [{
+						"name": "Colby Jack Cheese Stick",
+						"qty": 1,
+						"qtyType": "stick"
+					}]
+				}
+			]
 		},
 		{
-			"name": "Chicken And Spinach",
-			"qty": "1",
-			"groceryList": [{
-				"name": "spinach",
-				"qty": 2,
-				"qtyType": "cups"
-			},
-			{
-				"name": "chicken",
-				"qty": 4,
-				"qtyType": "oz"
-			}]
-		}]
-	},
-	{
-		"calories": 586,
-		"type": "Dinner",
-		"proteinInGrams": 59,
-		"fatInGrams": 19,
-		"carbsInGrams": 53,
-		"itemList": [{
-			"name": "Protein Bar",
-			"qty": "1",
-			"groceryList": [{
-				"name": "chocolate chips",
-				"qty": 1,
-				"qtyType": "cup"
-			},
-			{
-				"name": "beans",
-				"qty": 1,
-				"qtyType": "bag"
-			}]
+			"calories": 533,
+			"type": "Lunch",
+			"proteinInGrams": 62,
+			"fatInGrams": 23,
+			"carbsInGrams": 25,
+			"itemList": [{
+					"name": "Protein Shake",
+					"qty": "1",
+					"groceryList": [{
+							"name": "Milk",
+							"qty": 5.36,
+							"qtyType": "oz"
+						},
+						{
+							"name": "Almond milk",
+							"qty": 0.33,
+							"qtyType": "cup"
+						},
+						{
+							"name": "GNC Total Lean Vegan Shake",
+							"qty": 1,
+							"qtyType": "packet"
+						}
+					]
+				},
+				{
+					"name": "Chicken",
+					"qty": "4",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "chicken",
+						"qty": 4,
+						"qtyType": "oz"
+					}]
+				},
+				{
+					"name": "Bacon",
+					"qty": "1",
+					"qtyType": "slice",
+					"groceryList": [{
+						"name": "Bacon",
+						"qty": 1,
+						"qtyType": "slice"
+					}]
+				},
+				{
+					"name": "Cheese Stick",
+					"qty": "1",
+					"qtyType": "stick",
+					"groceryList": [{
+						"name": "Colby Jack Cheese Stick",
+						"qty": 1,
+						"qtyType": "stick"
+					}]
+				}
+			]
 		},
 		{
-			"name": "Chicken And Spinach",
-			"qty": "1",
-			"groceryList": [{
-				"name": "spinach",
-				"qty": 2,
-				"qtyType": "cups"
-			},
-			{
-				"name": "chicken",
-				"qty": 4,
-				"qtyType": "oz"
-			}]
-		}]
-	},
-	{
-		"calories": 786,
-		"type": "breakfast",
-		"proteinInGrams": 59,
-		"fatInGrams": 19,
-		"carbsInGrams": 53,
-		"itemList": [{
-			"name": "Protein Bar",
-			"qty": "2",
-			"groceryList": [{
-				"name": "chocolate chips",
-				"qty": 2,
-				"qtyType": "cup"
-			},
-			{
-				"name": "beans",
-				"qty": 2,
-				"qtyType": "bag"
-			}]
+			"calories": 521,
+			"type": "Dinner",
+			"proteinInGrams": 51,
+			"fatInGrams": 12,
+			"carbsInGrams": 53,
+			"itemList": [{
+					"name": "Spincah",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "Spinach",
+						"qty": 1,
+						"qtyType": "cup"
+					}]
+				},
+				{
+					"name": "Chicken And Rice Bake",
+					"qty": "1",
+					"groceryList": [{
+							"name": "Rice",
+							"qty": 1,
+							"qtyType": "cups"
+						},
+						{
+							"name": "chicken",
+							"qty": 4,
+							"qtyType": "oz"
+						}
+					]
+				},
+				{
+					"name": "Nugo Slim Bar",
+					"qty": "1",
+					"qtyType": "Bar",
+					"groceryList": [{
+						"name": "Nugo Slim Bar",
+						"qty": 21,
+						"qtyType": "Bar"
+					}]
+				}
+			]
 		},
 		{
-			"name": "Chicken And Spinach",
-			"qty": "1",
-			"groceryList": [{
-				"name": "spinach",
-				"qty": 2,
-				"qtyType": "cups"
-			},
-			{
-				"name": "chicken",
-				"qty": 4,
-				"qtyType": "oz"
-			}]
-		}]
-	},
-	{
-		"calories": 586,
-		"type": "Dinner",
-		"proteinInGrams": 59,
-		"fatInGrams": 19,
-		"carbsInGrams": 53,
-		"itemList": [{
-			"name": "Protein Bar",
-			"qty": "1",
-			"groceryList": [{
-				"name": "chocolate chips",
-				"qty": 1,
-				"qtyType": "cup"
-			},
-			{
-				"name": "beans",
-				"qty": 1,
-				"qtyType": "bag"
-			}]
+			"calories": 521,
+			"type": "Lunch",
+			"proteinInGrams": 51,
+			"fatInGrams": 12,
+			"carbsInGrams": 53,
+			"itemList": [{
+					"name": "Spincah",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "Spinach",
+						"qty": 1,
+						"qtyType": "cup"
+					}]
+				},
+				{
+					"name": "Chicken And Rice Bake",
+					"qty": "1",
+					"groceryList": [{
+							"name": "Rice",
+							"qty": 1,
+							"qtyType": "cups"
+						},
+						{
+							"name": "chicken",
+							"qty": 4,
+							"qtyType": "oz"
+						}
+					]
+				},
+				{
+					"name": "Nugo Slim Bar",
+					"qty": "1",
+					"qtyType": "Bar",
+					"groceryList": [{
+						"name": "Nugo Slim Bar",
+						"qty": 21,
+						"qtyType": "Bar"
+					}]
+				}
+			]
 		},
 		{
-			"name": "Chicken And Spinach",
-			"qty": "1",
-			"groceryList": [{
-				"name": "spinach",
-				"qty": 2,
-				"qtyType": "cups"
-			},
-			{
-				"name": "chicken",
-				"qty": 4,
-				"qtyType": "oz"
-			}]
-		}]
-	},
-	{
-		"calories": 586,
-		"type": "Lunch",
-		"proteinInGrams": 59,
-		"fatInGrams": 19,
-		"carbsInGrams": 53,
-		"itemList": [{
-			"name": "Protein Bar",
-			"qty": "1",
-			"groceryList": [{
-				"name": "chocolate chips",
-				"qty": 1,
-				"qtyType": "cup"
-			},
-			{
-				"name": "beans",
-				"qty": 1,
-				"qtyType": "bag"
-			}]
+			"calories": 463,
+			"type": "breakfast",
+			"proteinInGrams": 16,
+			"fatInGrams": 7,
+			"carbsInGrams": 88,
+			"itemList": [{
+					"name": "Grapefruit",
+					"qty": "1",
+					"groceryList": [{
+						"name": "Grapefruit",
+						"qty": 1,
+						"qtyType": "fruit"
+					}]
+				},
+				{
+					"name": "Honey Ham 2oz",
+					"qty": "1",
+					"groceryList": [{
+						"name": "Honey Ham",
+						"qty": 2,
+						"qtyType": "oz"
+					}]
+				},
+				{
+					"name": "Bisquick Biscuit",
+					"qty": "1.5",
+					"groceryList": [{
+						"name": "Bisquick",
+						"qty": 1,
+						"qtyType": "cup"
+					}]
+				},
+				{
+					"name": "Honey",
+					"qty": "1.5",
+					"qtyType": "tbsp",
+					"groceryList": [{
+						"name": "Honey",
+						"qty": 1.5,
+						"qtyType": "tbsp"
+					}]
+				}
+			]
 		},
 		{
-			"name": "Chicken And Spinach",
-			"qty": "1",
-			"groceryList": [{
-				"name": "spinach",
-				"qty": 2,
-				"qtyType": "cups"
-			},
-			{
-				"name": "chicken",
-				"qty": 4,
-				"qtyType": "oz"
-			}]
-		}]
-	},
-	{
-		"calories": 386,
-		"type": "snack",
-		"proteinInGrams": 9,
-		"fatInGrams": 9,
-		"carbsInGrams": 53,
-		"itemList": [{
-			"name": "Beans",
-			"qty": "1",
-			"groceryList": [
-			{
-				"name": "beans",
-				"qty": 1,
-				"qtyType": "bag"
-			}]
-		}]
-	},
-	{
-		"calories": 256,
-		"type": "snack",
-		"proteinInGrams": 15,
-		"fatInGrams": 9,
-		"carbsInGrams": 15,
-		"itemList": [{
-			"name": "Luna Bar",
-			"qty": "1",
-			"groceryList": [{
-				"name": "luna Bar",
-				"qty": 1,
-				"qtyType": "bar"
-			}]
-		}]
-	}]
+			"calories": 267,
+			"type": "Snack",
+			"proteinInGrams": 19,
+			"fatInGrams": 5,
+			"carbsInGrams": 41,
+			"itemList": [{
+					"name": "Nugo Slim Bar",
+					"qty": "1",
+					"qtyType": "Bar",
+					"groceryList": [{
+						"name": "Nugo Slim Bar",
+						"qty": 21,
+						"qtyType": "Bar"
+					}]
+				},
+				{
+					"name": "Orange",
+					"qty": "1",
+					"groceryList": [{
+						"name": "orange",
+						"qty": 1,
+						"qtyType": "orange"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 466,
+			"type": "Breakfast",
+			"proteinInGrams": 36,
+			"fatInGrams": 11,
+			"carbsInGrams": 57,
+			"itemList": [{
+					"name": "Oatmeal Carrot Muffins",
+					"qty": "1.5",
+					"qtyType": "muffins",
+					"groceryList": [{
+						"name": "Spinach",
+						"qty": 1,
+						"qtyType": "cup"
+					}]
+				},
+				{
+					"name": "Greek Yogurt",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+							"name": "Rice",
+							"qty": 1,
+							"qtyType": "cups"
+						},
+						{
+							"name": "chicken",
+							"qty": 4,
+							"qtyType": "oz"
+						}
+					]
+				},
+				{
+					"name": "Honey Ham",
+					"qty": "4",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "Nugo Slim Bar",
+						"qty": 21,
+						"qtyType": "Bar"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 457,
+			"type": "Lunch",
+			"proteinInGrams": 26,
+			"fatInGrams": 24,
+			"carbsInGrams": 34,
+			"itemList": [{
+					"name": "Arugala & Spinach",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Honey Ham",
+					"qty": "4",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Cheese Stick",
+					"qty": "1",
+					"qtyType": "stick",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Honey Wheat Bread",
+					"qty": "1",
+					"qtyType": "slice",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 457,
+			"type": "Dinner",
+			"proteinInGrams": 26,
+			"fatInGrams": 24,
+			"carbsInGrams": 34,
+			"itemList": [{
+					"name": "Arugala & Spinach",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Honey Ham",
+					"qty": "4",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Cheese Stick",
+					"qty": "1",
+					"qtyType": "stick",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Honey Wheat Bread",
+					"qty": "1",
+					"qtyType": "slice",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 463,
+			"type": "Dinner",
+			"proteinInGrams": 47,
+			"fatInGrams": 21,
+			"carbsInGrams": 23,
+			"itemList": [{
+					"name": "Arugala & Spinach",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Protein Shake",
+					"qty": "1",
+					"qtyType": "shake",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Chicken Thigh",
+					"qty": "1",
+					"qtyType": "thigh",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 463,
+			"type": "Lunch",
+			"proteinInGrams": 47,
+			"fatInGrams": 21,
+			"carbsInGrams": 23,
+			"itemList": [{
+					"name": "Arugala & Spinach",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Protein Shake",
+					"qty": "1",
+					"qtyType": "shake",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				},
+				{
+					"name": "Chicken Thigh",
+					"qty": "1",
+					"qtyType": "thigh",
+					"groceryList": [{
+						"name": "beans",
+						"qty": 1,
+						"qtyType": "bag"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 626,
+			"type": "Breakfast",
+			"proteinInGrams": 43,
+			"fatInGrams": 24,
+			"carbsInGrams": 58,
+			"itemList": [{
+					"name": "Oatmeal Carrot Muffins",
+					"qty": "2",
+					"qtyType": "muffins",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Triple Oikos Yogurt",
+					"qty": "1",
+					"qtyType": "container",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Egg",
+					"qty": "3",
+					"qtyType": "eggs",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 671,
+			"type": "Breakfast",
+			"proteinInGrams": 47,
+			"fatInGrams": 22,
+			"carbsInGrams": 75,
+			"itemList": [{
+					"name": "Oatmeal Carrot Muffins",
+					"qty": "2",
+					"qtyType": "muffins",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": "1",
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Triple Oikos Yogurt",
+					"qty": "1",
+					"qtyType": "container",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": "1",
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Egg",
+					"qty": "3",
+					"qtyType": "eggs",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Grapefruit",
+					"qty": "1",
+					"qtyType": "grapefruit",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 580,
+			"type": "Dinner",
+			"proteinInGrams": 75,
+			"fatInGrams": 18,
+			"carbsInGrams": 33,
+			"itemList": [{
+					"name": "Protein Shake",
+					"qty": "1",
+					"qtyType": "shake",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Spinach",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Lite Honey Mustard",
+					"qty": "2",
+					"qtyType": "tbsp",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Chicken Breast",
+					"qty": "8",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 580,
+			"type": "Lunch",
+			"proteinInGrams": 75,
+			"fatInGrams": 18,
+			"carbsInGrams": 33,
+			"itemList": [{
+					"name": "Protein Shake",
+					"qty": "1",
+					"qtyType": "shake",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Spinach",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Lite Honey Mustard",
+					"qty": "2",
+					"qtyType": "tbsp",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Chicken Breast",
+					"qty": "8",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 550,
+			"type": "Breakfast",
+			"proteinInGrams": 48,
+			"fatInGrams": 15,
+			"carbsInGrams": 58,
+			"itemList": [{
+					"name": "Chicken",
+					"qty": "2",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Spinach",
+					"qty": "1",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Honey Wheat Bread",
+					"qty": "2",
+					"qtyType": "slices",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Triple Greek Yogurt",
+					"qty": "1",
+					"qtyType": "container",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 774,
+			"type": "Dinner",
+			"proteinInGrams": 70,
+			"fatInGrams": 28,
+			"carbsInGrams": 59,
+			"itemList": [{
+					"name": "Ciabatta Roll",
+					"qty": "1",
+					"qtyType": "roll",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Spinach",
+					"qty": "2",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Hamburger Meat",
+					"qty": "6",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Nugo Slim Bar",
+					"qty": "1",
+					"qtyType": "bar",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Lite Honey Mustard",
+					"qty": "2",
+					"qtyType": "tbsp",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				}
+			]
+		},
+		{
+			"calories": 774,
+			"type": "Lunch",
+			"proteinInGrams": 70,
+			"fatInGrams": 28,
+			"carbsInGrams": 59,
+			"itemList": [{
+					"name": "Ciabatta Roll",
+					"qty": "1",
+					"qtyType": "roll",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Spinach",
+					"qty": "2",
+					"qtyType": "cup",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Hamburger Meat",
+					"qty": "6",
+					"qtyType": "oz",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Nugo Slim Bar",
+					"qty": "1",
+					"qtyType": "bar",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				},
+				{
+					"name": "Lite Honey Mustard",
+					"qty": "2",
+					"qtyType": "tbsp",
+					"groceryList": [{
+						"name": "luna Bar",
+						"qty": 1,
+						"qtyType": "bar"
+					}]
+				}
+			]
+		}
+	]
 }

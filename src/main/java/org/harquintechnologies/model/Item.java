@@ -7,6 +7,7 @@ public class Item {
 
 	private String name;
 	private String qty;
+	private String qtyType = "";
 	private List<Grocery> groceryList = new ArrayList<>();
 	
 	public void addGrocery(Grocery grocery)
@@ -32,6 +33,15 @@ public class Item {
 	public void setGroceryList(List<Grocery> groceryList) {
 		this.groceryList = groceryList;
 	}
+
+	public String getQtyType() {
+		return qtyType;
+	}
+
+	public void setQtyType(String qtyType) {
+		this.qtyType = qtyType;
+	}
+	
 	
 	
 }

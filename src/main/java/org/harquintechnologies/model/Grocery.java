@@ -2,7 +2,7 @@ package org.harquintechnologies.model;
 
 public class Grocery {
 	private String name;
-	private int qty;
+	private double qty;
 	private String qtyType;
 	
 	public String getName() {
@@ -13,11 +13,11 @@ public class Grocery {
 		this.name = name;
 	}
 	
-	public int getQty() {
+	public double getQty() {
 		return qty;
 	}
 	
-	public void setQty(int qty) {
+	public void setQty(double qty) {
 		this.qty = qty;
 	}
 	
